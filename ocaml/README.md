@@ -1,20 +1,8 @@
 Requirements
 ------------
 
-Build and install OCamlSDL2. For instance:
+Install tsdl and tsdl-image with opam:
 
-    git clone https://github.com/fccm/OCamlSDL2
-    cd OCamlSDL2/src
-    cp Makefile.config.unix Makefile.config
-    make gen
-    make dep
-    make opt byte
-    sudo make install DESTDIR=/usr/lib/ocaml
+    opam install tsdl tsdl-image
 
 Now everything is ready to build and run.
-
-
-Note
-----
-
-* Make sure the ocaml sdl2 library files in /usr/lib/ocaml are readable (+r).
