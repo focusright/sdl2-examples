@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <iostream>
 
-int main()
+int main(int argc, char *args[])
 {
     using std::cerr;
     using std::endl;
