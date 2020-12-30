@@ -3,7 +3,7 @@
 
 #include "sdl2.h"
 
-auto main() -> int
+auto main(int argc, char *args[]) -> int
 {
     using std::cerr;
     using std::endl;
